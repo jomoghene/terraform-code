@@ -1,6 +1,6 @@
 
 resource "aws_sns_topic" "demo" {
-  name = var.sns-qa
+  name = "sns-qa"
   tags = {
     team = var.Team
   }
